@@ -36,5 +36,17 @@
    <img src="img/carrot.png" alt="carrot">
    <img src="img/carrot.png" alt="carrot">
    <img src="img/carrot.png" alt="carrot">
+
+   <script>
+    //  const button = document.getElementsByTagName('button')
+    const button = document.querySelector('button');
+    const rabbit = document.querySelector('#rabbit');
+
+    button.addEventListener('click', ()=>{
+      // console.log('clicked!')
+      rabbit.scrollIntoView({behavior: 'smooth', block: 'center'});
+    })
+
+   </script>
 </body>
 </html>
